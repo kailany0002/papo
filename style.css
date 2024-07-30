@@ -1,0 +1,37 @@
+@media screen and (max-width:320px){
+    body{ 
+        background-color: rgb(95, 192, 209);
+    }
+    .logo{
+        text-align: center;
+    }  
+    button{
+        width: 95px;
+    }   
+    .div1{
+        width: 294px;
+        height: 90px;
+        background-color: rgb(8, 109, 139);
+        margin: 5px;
+        border-radius: 5px;
+    }
+    .div2{
+        width: 294px;
+        height: 90px;
+        background-color: rgb(8, 109, 139);
+        margin: 5px;
+        border-radius: 5px;
+    }
+    .div3{
+        width: 294px;
+        height: 90px;
+        background-color: rgb(8, 109, 139);
+        margin: 5px;
+        border-radius: 5px;
+    }
+    .tudo{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+}
