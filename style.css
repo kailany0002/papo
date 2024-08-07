@@ -35,6 +35,9 @@
         flex-direction: column;
         justify-content: center;
     }
+    p{
+        display: none;
+    }
 }
 @media screen and (min-width: 321px) and (max-width: 600px) {
     body{ 
@@ -79,13 +82,16 @@
         display: flex;
 
     }
+    p{
+        display: none;
+    }
 }
 @media screen and (min-width: 600px) and (max-width: 1200px) {
     body{ 
         background-color: rgba(187, 27, 35, 0.856);
     }
     .logo{
-        justify-content: space-between;
+        justify-content: space-around;
         display: flex;
     }  
     button{
@@ -94,8 +100,8 @@
         margin-top: 27px;
     }   
     .div1{
-        width: 551px;
-        height: 90px;
+        width: 294px;
+        height: 163px;
         background-color: rgba(214, 115, 115, 0.849);
         margin: 5px;
         border-radius: 5px;
@@ -103,7 +109,7 @@
     }
     .div2{
         width: 294px;
-        height: 90px;
+        height: 163px;
         background-color: rgba(214, 115, 115, 0.849);
         margin: 5px;
         border-radius: 5px;
@@ -111,10 +117,17 @@
     }
     .div3{
         width: 294px;
-        height: 90px;
+        height: 163px;
         background-color: rgb(214, 115, 115, 0.849);
         margin: 5px;
         border-radius: 5px;
         
+    }
+    .tudo{
+        display: flex;
+        flex-direction: row;
+    }
+    .divs{
+        display: flex;
     }
 }
